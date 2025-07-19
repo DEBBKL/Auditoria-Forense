@@ -151,23 +151,48 @@ A continuación, se describe detalladamente el procedimiento llevado a cabo en A
 
 5. **Exploración de archivos multimedia:** Se accedió a la categoría "Images" dentro de la vista de resultados. Aquí se identificaron 11 imágenes activas. Se inspeccionaron metadatos EXIF como fechas, dispositivos de captura y coordenadas GPS.
 
+![Captura 2](capturas/2.PNG)
+
 ---
 
 6. **Recuperación de archivos eliminados:** Desde la sección "Deleted Files" se encontraron 6 archivos que habían sido borrados. Se usó PhotoRec Carver para intentar restaurarlos completamente.
 
+![Captura 3](capturas/3.PNG)
+
 ---
 
-7. **Análisis de palabras clave:** Se utilizó el módulo "Keyword Search" con la palabra clave `cat` en modo substring. Esto permitió encontrar coincidencias parciales en archivos de texto, incluyendo la frase secreta. Se analizaron los resultados desde diferentes pestañas:
+7. **Análisis de palabras clave:** Se utilizó el módulo "Keyword Search" con la palabra clave `cat` en modo substring.
+
+![Captura 4](capturas/4.PNG)
+
+Esto permitió encontrar coincidencias parciales en archivos de texto, incluyendo la frase secreta. Se analizaron los resultados desde diferentes pestañas:
 
    * **Hex:** Se examinó la codificación binaria de los archivos.
+
+![Captura 6](capturas/6.PNG)
+
    * **Strings:** Extrajo cadenas de texto legibles.
+
+![Captura 7](capturas/7.PNG)
+
    * **Extracted Text:** Muestra texto extraído automáticamente de archivos de documentos o imágenes.
+
+![Captura 8](capturas/8.PNG)
+
    * **Application:** Mostró los archivos abiertos con sus aplicaciones asociadas.
+
+![Captura 9](capturas/9.PNG)
+
    * **Metadata:** Permitió ver atributos avanzados como autores, fechas, permisos, etc.
+
+![Captura 10](capturas/10.PNG)
 
 ---
 
 8. **Validación del hallazgo clave:** Una de las imágenes contenía texto plano con la frase "Let’s go get some coffee", que fue identificada como la evidencia principal. Esta fue exportada y preservada como parte del informe final.
+
+![Captura 11](capturas/11.PNG)
+![Captura 12](capturas/12.PNG)
 
 ---
 
@@ -199,6 +224,8 @@ Se proporcionó una imagen forense de tipo `.dd` para su estudio en la herramien
 * Durante la búsqueda por palabra clave, se detectó en texto plano la frase secreta:
 
 **“Let’s go get some coffee”**
+
+![Captura 13](capturas/13.PNG)
 
 Este hallazgo demuestra la eficacia del análisis basado en palabras clave y metadatos para localizar evidencia crucial en investigaciones forenses.
 
