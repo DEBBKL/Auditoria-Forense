@@ -1,4 +1,6 @@
-# Proyecto: Auditoría Forense – Práctica MF0488_3
+# Auditoría Forense – Autopsy
+
+![Captura 13](capturas/13.PNG)
 
 ---
 
